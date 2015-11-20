@@ -1,0 +1,106 @@
+.menu{
+	list-style: none;
+	float:left;
+	font-size: 16px;
+	margin: 0 5% 5% 10%;
+	font-weight: bold;
+	font-family: Oswald;
+
+}
+
+nav ul{
+	
+margin:10%
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+	color: #800080;
+
+}
+section{
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+	height: 400px;
+}
+
+.logo{
+	width: 30%;
+	margin:10% 0 0% 35%;
+}
+.name{ /* Your name here*/
+	color: white;
+	font-family: Oswald;
+	font-size: 50px;
+	text-align: center;
+}
+
+.name2{ /*Tagline*/
+   color: white;
+	font-family: Oswald;
+	font-size: 20px;
+	text-align: center;
+	padding: 2%;
+
+}
+
+.profile{
+	width: 70%;
+	border: solid 1px; color: #9c9c9c;
+	padding: 2px;
+	margin-bottom: 15%;
+
+}
+
+
+h2{ /* */
+	color: #800080;
+	font-family: Oswald;
+	font-size: 25px;
+	text-align: center;
+	margin:5%;
+}
+
+
+ .lorem{ /*Esta clase  para acercar el texto a la imagen */
+ 	margin: 0 0 0 -15%
+ }
+
+.about{
+	background-image: url("../images/tile1.png");
+
+	}
+
+h3{
+	color: #800080;
+	font-family: Oswald;
+	font-size: 18px;
+	text-align: center;
+}
+
+.kitten{
+	width: 80%;
+	padding: 1%;
+	border-radius: 100%;
+	border:  #800080 solid 1px;
+	margin: 40% 0 50% 0;
+}
+
+.contac{
+	background-image: url("../images/tile2.png");
+}
+
+footer img{
+	margin-left: 30%;
+	width: 50%;
+	padding-bottom: 20%;
+
+}
+
+.espacio{
+	margin-top: 2%;
+}
+ 

@@ -1,0 +1,560 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@font-face{
+  font-family:"coolvetica";
+  src: url(../fonts/coolvetica.ttf) format("truetype");
+}
+
+@font-face{
+  font-family:"asenine";
+  src: url(../fonts/asenine.ttf) format("truetype");
+  font-weight: bolder;
+}
+
+@font-face{
+  font-family:"eacologica";
+  src: url(../fonts/eacologica.ttf) format("truetype");
+}
+
+
+.eacologica{
+    font-family: "eacologica";
+}
+
+.asenine{
+  font-family: "asenine";
+  font-weight: lighter;
+}
+
+p{
+    font-family: "coolvetica";
+
+}
+header h2, h3{
+ opacity:0.8;
+ font-family: "coolvetica";
+}
+
+
+.coolvetica{
+font-family: "coolvetica";
+}
+
+
+.rosa{
+ color:#e1bed2;
+}
+
+.verde{
+  color: #bee1cd;
+}
+
+.asenine{
+  font-family: "asenine";
+  font-weight: lighter;
+}
+
+
+.mifoto{
+    width: 200px;
+    height: 250px;
+    border-radius: 100%;
+    margin-bottom: 4%;
+}
+
+.flores{
+    background-image: url("../img/flores.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-image: opacity: 0.3;
+    height: 15em;
+}
+
+
+@media(min-width:768px) {
+    section {
+        padding: 110px 0;
+    }
+}
+
+section.skills{
+  background-color:white;
+  height: 45em;
+  background-size: cover;
+  padding-top: 7%;
+  margin-bottom: 5%
+}
+
+section.trabajos{
+  background-color: white;
+  height: 55em;
+  padding-top:6%;
+  margin-bottom:15%;
+}
+
+section.contact{
+  background-color: #fff;
+  height: 35em;
+  padding-top:5%;
+}
+
+
+.icon{
+  width: 20%;
+  padding-top: 5%;
+
+}
+
+.skills_icon{
+  width: 50%;
+ margin-left: 23%;
+ 
+}
+
+.center{
+width: -moz-fit-content;
+width: -webkit-fit-content;
+width: fit-content;
+margin: auto; 
+}
+
+.border{
+  border-color: black;
+}
+
+.text-muted { /*Texto gris*/
+    color: #777;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+.btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+.btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+.btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+.btn-primary.active {
+    border-color: #bee1cd; /*listo Color del boton de cerrar sin important*/
+    background-color: #bee1cd; /* listo Color de fondo de boton cerrar proyecto*/
+    color:black; /* Listo Texto boton cerrar*/
+}
+
+
+
+.btn-xl { /*Bonton principal Listo*/
+    padding: 20px 40px;
+    border-color: #bee1cd;
+    border-radius: 3px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:black ; /* Listo Texto de boton principal*/
+    background-color: #bee1cd; /* Listo Color de  fondo de boton principal*/
+    border-radius: 10px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color:#e1bed2; /* Listo Color al que cambia el borde del boton principal al pasar el mouse*/
+    color: white; /* Listo Color al que cambie el texto del boton principal al pasar el mouse*/
+    background-color: #e1bed2; /* Listo color al que cambia el boton principal al pasar al mouse*/
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: black; /*Listo Color de menu en responsivo*/
+}
+
+.navbar-default .navbar-brand {
+    font-family: "coolvetica";
+    color:  #bee1cd; /* Listo Color de mi nombre Lualeph*/
+    font-size: 19px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #e1bed2; /*Listo Color al que cambia al pasar el mouse Lualeph*/
+}
+
+.navbar-default .navbar-collapse {
+    border-color: black;/*Listo Color de la linea de separación en responsive*/
+}
+
+.navbar-default .navbar-toggle { /* Listo Color boton responsive borde y fondo*/
+    border-color: #bee1cd ;
+    background-color: #bee1cd ;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e1bed2; /* Listo Color de lineas de boton responsive*/
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #bee1cd; /*Listo Color al que cambia boton responsivre al hacer clic y 
+    se queda de ese color poner el mismo color  de fondo porque ya no vuelve a cambiar */
+}
+
+.navbar-default .nav li a {
+    font-family: "coolvetica";
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:  #bee1cd;  /*Listo Letras de opciones de menu en todas las vistas*/
+    font-size: 19px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #e1bed2; /*Listo Color al que cambiar las opciones del mueni*/
+}
+
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent; /* Listo Menu transparente hasta arriba*/
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: black; /*Listo Color de la barra cuando baja*/
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "";
+    font-weight: 700; /*Cambiar atributos para los h*/
+}
+
+.header{
+    height: 55.5em;
+    background-image:url("../img/Laptopandmusic.jpg");
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+     
+
+header h2{
+  padding-top:5em;
+  font-size:50px;
+  color: #fff;
+}
+
+header h3{
+  font-size:45px;
+  padding-top: 3%;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+
+@font-face{
+  font-family:"asenine";
+  src: url(../fonts/eacologica.ttf) format("truetype");
+}
+
+@font-face{
+  font-family:"coolvetica";
+  src: url(../fonts/coolveticarg.ttf) format("truetype");
+}
+
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.modal-body img{
+ width: 100%;
+}
+
+header {
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/img/Laptopandmusic.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    font-family: "coolvetica"
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/*Clases para mi foto*/
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+/*Portafoliio*/
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(225,190,210,.9); 
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "coolvetica";
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+/*Modals*/
+..portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+ footer{
+  background-color: black;
+   height: 9em;
+ }
+
+.modal-content{
+    width: 100%;
+}
+/*Animaciones*/
+
+/*Example 2*/
+#container {
+    width: 300px;
+    margin: 0 auto;
+}
+  
+#ex2 img{
+    height: 100px;
+    width: 300px;
+    margin: 15px 0;
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+  
+#ex2 img:hover {
+    height: 133px;
+    width: 400px;
+    margin-left: -50px;
+}
+
+.img{
+    
+    float: left;
+    margin: 23px;
+    -webkit-transition: margin 0.5 ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+  
+.img:hover {
+    margin-top: 10px;
+}
